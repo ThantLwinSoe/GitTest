@@ -1,0 +1,67 @@
+h1 {
+	padding-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+#description {
+	
+	text-align: center;
+}
+
+#main {
+
+	width: 35%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color:  #1b1b32;
+	color: ghostwhite;
+}
+
+body{
+
+	background-image: url(SolarSystem.jpeg);
+
+}
+
+#name-label,#email-label,#number-label {
+
+	display: inline; 
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+
+	
+	
+}
+
+#name,#email,#number {
+	width: 400px;
+	height: 25px;
+	margin: 10px auto;
+	font-size: medium;
+	
+}
+
+#dropdown {
+	width: 300px;
+	margin-top: 10px;
+	height: 24px;
+
+	
+}
+
+.oneF {
+	margin: 50px auto;
+/*	border: none; */
+	max-width: 50px;
+	
+}
+
+.twoF {
+	max-width: 50px;
+	margin-left: 115px;
+	margin-bottom: 25px;
+}
