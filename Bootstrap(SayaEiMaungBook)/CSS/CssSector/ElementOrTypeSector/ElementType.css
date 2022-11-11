@@ -1,0 +1,23 @@
+hgroup {
+
+	padding: 10px;
+	background-color: lightblue;
+}
+
+h2 {
+	color: lightcyan;
+}
+
+ol {
+	background-color: darkkhaki;
+}
+
+p {
+	padding-left: 20px;
+	background-color: darkmagenta;
+}
+
+form {
+	color: darkgoldenrod;
+	background-color: lightsteelblue;
+}
