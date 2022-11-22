@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hello Pseudo Class</title>
+	<style type="text/css">
+		a:hover {
+			color: red;
+		}
+		a:active {
+			color: yellow;
+		}
+		a:visited{
+			color: green;
+		}
+		table{
+			border: 1 solid;
+			width: 50%;
+		}
+		table td {
+			height: 70px;
+		}
+
+		tbody td:nth-child(2n) {
+			color: blue;
+		}
+	</style>
+</head>
+<body>
+	<hgroup>
+		<h1>Product Table</h1>
+		<a href="https://www.w3schools.com">Here you can learn html and css</a><br>
+		<a href="https://www.youtube.com">Here Youtube</a>
+	</hgroup>
+	<table border="1" >
+		<thead>
+			<tr>
+				<td>ID</td>
+				<td>Name</td>
+				<td>Category</td>
+				<td>Price</td>				
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td>Cocolate Cake</td>
+				<td>Food</td>
+				<td>1500</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Cheese Cake</td>
+				<td>Food</td>
+				<td>1200</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Coke</td>
+				<td>Drink</td>
+				<td>1000</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>Pepsi</td>
+				<td>Drink</td>
+				<td>2500</td>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Potato Chips</td>
+				<td>Food</td>
+				<td>800</td>
+			</tr>		
+		</tbody>
+	</table>
+</body>
+</html>
