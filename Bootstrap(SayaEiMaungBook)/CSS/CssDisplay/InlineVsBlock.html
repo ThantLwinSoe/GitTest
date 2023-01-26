@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>InlineVsBlockDisplay</title>
+	<style type="text/css">
+		h1 {
+			background-color: red;
+		}
+		form{
+
+			background: navy;
+			color: red;
+			padding: 10px; 
+			<!-- -->
+		}
+		div,span {
+			background: bisque;
+			padding-bottom: 20Px;
+			margin-bottom: 20px;
+			text-align: center;
+			width: 700px;
+			height: 150px;
+		}
+		span {
+			display: block;
+			margin-top: 30px;
+		}
+		div {
+			display: flex;
+
+		}
+		.class {
+			display: none;
+		}
+		label,input {
+			display: block;
+			margin-bottom: 10px;
+		}
+	</style>
+</head>
+<body>
+	<hgroup>
+		<h1>Hello Css Display</h1>
+	</hgroup>
+	<form>
+		<label>Name</label>
+		<input type="text" name="user_name">
+		<input type="submit" name="login">
+	</form>
+	<form>
+		<label>Type Something</label>
+		<input type="password" name="passwd">
+	</form>
+	<div>Div,h1,form are Block Display Type</div>
+	<div>This is Block</div>
+	<span>label, input sapn are Inline Display type.</span>
+	<span>This is Inline</span>
+	<div class="ok">This is None type in Css</div>
+
+</body>
+</html>
