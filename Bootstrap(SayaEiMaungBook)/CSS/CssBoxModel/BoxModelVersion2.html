@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Box Model Version Two</title>
+	<style type="text/css">
+		.box_family {
+			width: 400px;
+			height: 400px;
+			border: 5px dotted #AA1131;
+		}
+		.box_one, .box_two, .box_three, .box_four {
+			margin: 10px auto;
+			width: 400px;
+			height: 85px;k
+		}
+		.box_one {
+			background-color: rgba(111, 87, 210, 1.0);
+		}
+		.box_two {
+			background-color: #9A7F99;
+		}
+		.box_three{
+			background-color: rgb(155, 21, 67);
+		}
+		.box_four {
+			background-color: darkcyan;
+		}
+		.reg_form {
+			margin: 10px;
+			background-color: #AF9F7F;
+			width: 800px;
+			height: 400px;
+			border: 10px dotted rgba(19, 100, 89, 0.3);
+		}
+		input,button {
+
+			padding-left: 150px;
+			margin-left: 100px;
+		}
+
+		.reg_form label {
+
+			display: block;
+			padding-left: 100px;
+		}
+		.us {
+			padding-top: 100px;
+		}
+		.container {
+			margin: 200px auto;
+			width: 400px;
+			height: 400px;
+			background-color: #0599FF;
+			border: 5px solid #7191A2;
+		}
+		.c1,.c2{
+			box-sizing: border-box;
+			padding-left: 5px;
+			padding-top: 10px;
+			width: 400px;
+			height: 200px;
+			border: 2px dotted lightslategrey;
+
+		}
+		.c1 {
+			background-color: #05FF99;
+		}
+		.c2 {
+			background-color: #FF9905;
+		}
+		
+	</style>
+</head>
+<body>
+	<h1>hello Box two</h1>
+	
+	<div class = "box_family">
+		<div class="box_one">Box One</div>
+		<div class="box_two">Box Two</div>
+		<div class="box_three">Box Three</div>
+		<div class="box_four">Box Four</div>
+	</div>
+	<form class="reg_form">
+		
+			<label class="us">Name:</label>
+			<input type="text" name="user_name">
+			<label>Password:</label>
+			<input type="password" name="passwd"><br>
+			<button>log in</button>			
+
+	</form>
+	<div class="container">
+		<div class="c1">Container One</div>
+		<div class="c2">Container two</div>
+	</div>
+</body>
+</html>
